@@ -1,4 +1,4 @@
-// =   p
+
 const url = 'https://api.openweathermap.org/data/2.5/'
 const key = '2b85974376e7eccb618921bc1d96ceb6'
 const setQuery = (e) => {
@@ -28,5 +28,5 @@ const displayResult=(result) => {
             
 }
 
-const searchBar = document.getElementById('searchBar') // getElementClassname ile yaptıgımda hata verdi nedenini arastır
+const searchBar = document.getElementById('searchBar') // 
 searchBar.addEventListener('keypress',setQuery)
